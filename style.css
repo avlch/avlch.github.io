@@ -1,0 +1,119 @@
+        header {
+            background-color: lightgrey;
+            border-radius: 25px;
+            padding: 5px;
+            
+        }
+        * {
+            box-sizing: border-box;
+        }
+        div {
+            overflow: break-word;
+        }
+        body {
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-bottom: 10%;
+        }
+        #bdiv {
+            display: flex;
+            justify-content: right;
+        }
+        .button {
+            border-radius: 25px;
+            padding: 5px;
+            background-color: greenyellow;
+            border-color: azure;
+        }
+        #container1 {
+            display: grid;
+            grid-template-columns: 1fr 1.3fr 1fr;
+            gap: 10px;
+        }
+        #container2 {
+            display: flex;
+            gap: 10px;
+        }
+        #div1 {
+            background-color: purple;
+            height: 300px;
+            display: flex;
+            padding: 10px;
+            border-radius: 25px;
+        }
+        #div2 {
+            background-color: violet;
+            min-height: 150px;
+            height: auto;
+            padding: 10px;
+            border-radius: 25px;
+        }
+        #div3 {
+            background-color: lightgrey;
+            height: 200px;
+            height: auto;
+            padding: 10px;
+            border-radius: 25px;
+            margin-top: -50px;
+        }
+        #div4 {
+            background-color: rgb(144, 186, 80);
+            min-height: 150px;
+            height: auto;
+            padding: 10px;
+            border-radius: 25px;
+        }
+        #div5 {
+            background-color: violet;
+            width: 40%;
+            height: 200px;
+            padding: 10px;
+            border-radius: 25px;
+        }
+        #div6 {
+            background-color: lightgrey;
+            width: 60%;
+            padding: 10px;
+            border-radius: 25px;
+        }
+        #container3 {
+            display: grid;
+            padding: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 10px;
+            height: 300px;
+        }
+        .mdiv {
+            border-radius: 25px;
+            padding: 10px;
+        }
+        #mdiv1 {
+            background-color: grey;
+            grid-row: span 2;
+        }
+        #mdiv2 {
+            background-color: grey;
+            grid-column: span 2;
+        }
+        #mdiv3 {
+            background-color: grey;
+        }
+        #mdiv4 {
+            background-color: grey;
+        }
+        #mdiv5 {
+            background-color: grey;
+            grid-column: span 2;
+        }
+        #mdiv6 {
+            background-color: grey;
+        }
+        h2 {
+            text-align: center;
+        }
+        #fdiv {
+            background-color: blueviolet;
+            padding: 10px;
+            border-radius: 25px;
+        }
