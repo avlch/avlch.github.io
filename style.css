@@ -8,7 +8,7 @@
             box-sizing: border-box;
         }
         div {
-            overflow: break-word;
+            overflow-wrap: anywhere;
         }
         body {
             margin-left: 5%;
@@ -31,10 +31,16 @@
             background-color: greenyellow;
             border-color: azure;
         }
+        #container1 > div, #container2 > div, #container3 > div {
+            min-width: 0;
+            overflow-wrap: anywhere;
+        }
         #container1 {
             display: grid;
             grid-template-columns: 1fr 1.3fr 1fr;
             gap: 10px;
+            min-width: 0;
+            max-width: 100%;
         }
         #container2 {
             display: flex;
