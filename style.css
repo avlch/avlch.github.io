@@ -1,8 +1,7 @@
         header {
             background-color: lightgrey;
             border-radius: 25px;
-            padding: 5px;
-            
+            padding: 5px;    
         }
         * {
             box-sizing: border-box;
@@ -128,3 +127,5 @@
             background-color: blueviolet;
             padding: 10px;
             border-radius: 25px;
+        }
+            
