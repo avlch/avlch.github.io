@@ -11,9 +11,15 @@
             overflow: break-word;
         }
         body {
-            margin-left: 15%;
-            margin-right: 15%;
-            margin-bottom: 10%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 2%;
+        }
+        @media screen and (min-width: 1100px) {
+            body {
+                margin-left: 15%;
+                margin-right: 15%;
+            }
         }
         #bdiv {
             display: flex;
