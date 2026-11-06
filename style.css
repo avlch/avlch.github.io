@@ -1,3 +1,11 @@
+        @font-face {
+            font-family: myFont;
+            src: url(fonts/Rubik/RubikGlitch-Regular.ttf);
+        }
+        @font-face {
+            font-family: myFont2;
+            src: url(fonts/Indie/IndieFlower-Regular.ttf);
+        }
         header {
             background-color: lightgrey;
             border-radius: 25px;
@@ -46,11 +54,30 @@
             gap: 10px;
         }
         #div1 {
-            background-color: purple;
+            background-color: black;
             height: 300px;
             display: flex;
             padding: 10px;
             border-radius: 25px;
+        }
+        #div1text {
+            width: 50%;
+            margin: auto;
+        }
+        #h2 {
+            color: white;
+            font-size: auto;
+            margin: auto;
+        }
+        #p1 {
+            color: white;
+            font-size: auto;
+            margin: auto;
+        }
+        #p2 {
+            color: white;
+            font-size: auto;
+            margin: auto;
         }
         #div2 {
             background-color: violet;
