@@ -60,6 +60,9 @@
             padding: 10px;
             border-radius: 25px;
         }
+        #logo {
+            width: 50%;
+        }
         #div1text {
             width: 50%;
             margin: auto;
