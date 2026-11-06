@@ -82,15 +82,33 @@
             font-size: auto;
             margin: auto;
         }
+        #p3 {
+            color: white;
+            font-size: auto;
+            margin: auto;
+            text-align: center;
+        }
+        #p4 {
+            color: white;
+            font-size: auto;
+            margin: auto;
+            text-align: center;
+        }
+        #p5 {
+            color: white;
+            font-size: auto;
+            margin: auto;
+            text-align: center;
+        }
         #div2 {
-            background-color: violet;
+            background-color: black;
             min-height: 150px;
             height: auto;
             padding: 10px;
             border-radius: 25px;
         }
         #div3 {
-            background-color: lightgrey;
+            background-color: grey;
             height: 200px;
             height: auto;
             padding: 10px;
@@ -98,7 +116,7 @@
             margin-top: -50px;
         }
         #div4 {
-            background-color: rgb(144, 186, 80);
+            background-color: black;
             min-height: 150px;
             height: auto;
             padding: 10px;
