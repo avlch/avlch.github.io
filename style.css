@@ -1,18 +1,24 @@
         @font-face {
-            font-family: myFont;
-            src: url(fonts/Rubik/RubikGlitch-Regular.ttf);
+            font-family: myFont1;
+            src: url(fonts/RubikGlitch/RubikGlitch-Regular.ttf);
         }
         @font-face {
             font-family: myFont2;
             src: url(fonts/Indie/IndieFlower-Regular.ttf);
         }
+        @font-face {
+            font-family: myFont3;
+            src: url(fonts/RubikWetPaint/RubikWetPaint-Regular.ttf);
+        }
         header {
-            background-color: lightgrey;
+            background-color: #1B1A16;
             border-radius: 25px;
-            padding: 5px;    
+            padding: 5px; 
         }
         * {
             box-sizing: border-box;
+            overflow-wrap: break-word;
+            color: #E8E1D3;
         }
         div {
             overflow-wrap: anywhere;
@@ -21,6 +27,8 @@
             margin-left: 5%;
             margin-right: 5%;
             margin-bottom: 2%;
+            background-color: #80663B;
+            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
         }
         @media screen and (min-width: 1100px) {
             body {
@@ -35,12 +43,12 @@
         .button {
             border-radius: 25px;
             padding: 5px;
-            background-color: greenyellow;
-            border-color: azure;
+            background-color: #B29A5E;
+            border-color: #80663B;
+            font-family: myFont1;
         }
         #container1 > div, #container2 > div, #container3 > div {
             min-width: 0;
-            overflow-wrap: anywhere;
         }
         #container1 {
             display: grid;
@@ -54,7 +62,7 @@
             gap: 10px;
         }
         #div1 {
-            background-color: black;
+            background-color: #1B1A16;
             height: 300px;
             display: flex;
             padding: 10px;
@@ -67,70 +75,89 @@
             width: 50%;
             margin: auto;
         }
-        #h2 {
-            color: white;
+        .h2 {
+            color: #E8E1D3;
             font-size: auto;
             margin: auto;
+            font-family: myFont1;
         }
         #p1 {
-            color: white;
             font-size: auto;
             margin: auto;
+            font-family: myFont1;
         }
         #p2 {
-            color: white;
             font-size: auto;
             margin: auto;
+            font-family: myFont1;
         }
         #p3 {
-            color: white;
             font-size: auto;
             margin: auto;
             text-align: center;
+            font-family: myFont1;
         }
         #p4 {
-            color: white;
             font-size: auto;
             margin: auto;
+            font-family: myFont1;
             text-align: center;
         }
         #p5 {
-            color: white;
             font-size: auto;
             margin: auto;
             text-align: center;
+            font-family: myFont1;
+        }
+        #p6 {
+            font-size: auto;
+            margin: auto;
+            font-family: myFont3;
+        }
+        #p7 {
+            font-size: auto;
+            margin: auto;
+            font-family: myFont3;
+        }
+        #p8 {
+            font-size: auto;
+            margin: auto;
+            font-family: myFont3;
         }
         #div2 {
-            background-color: black;
+            background-color: #1B1A16;
             min-height: 150px;
             height: auto;
             padding: 10px;
             border-radius: 25px;
+            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
         }
         #div3 {
-            background-color: grey;
+            background-color: #1B1A16;
             height: 200px;
             height: auto;
             padding: 10px;
             border-radius: 25px;
             margin-top: -50px;
+            background-image: linear-gradient(to bottom, #1B1A16, #80663B);
         }
         #div4 {
-            background-color: black;
+            background-color: #1B1A16;
             min-height: 150px;
             height: auto;
             padding: 10px;
             border-radius: 25px;
+            background-image: linear-gradient(to bottom left, #1B1A16, #80663B);
         }
         #div5 {
-            background-color: violet;
+            background-color: #1B1A16;
             width: 40%;
-            height: 200px;
+            height: auto;
             padding: 10px;
             border-radius: 25px;
         }
         #div6 {
-            background-color: lightgrey;
+            background-color: #1B1A16;
             width: 60%;
             padding: 10px;
             border-radius: 25px;
@@ -148,31 +175,31 @@
             padding: 10px;
         }
         #mdiv1 {
-            background-color: grey;
+            background-color: #1B1A16;
             grid-row: span 2;
         }
         #mdiv2 {
-            background-color: grey;
+            background-color: #1B1A16;
             grid-column: span 2;
         }
         #mdiv3 {
-            background-color: grey;
+            background-color: #1B1A16;
         }
         #mdiv4 {
-            background-color: grey;
+            background-color: #1B1A16;
         }
         #mdiv5 {
-            background-color: grey;
+            background-color: #1B1A16;
             grid-column: span 2;
         }
         #mdiv6 {
-            background-color: grey;
+            background-color: #1B1A16;
         }
         h2 {
             text-align: center;
         }
         #fdiv {
-            background-color: blueviolet;
+            background-color: #1B1A16;
             padding: 10px;
             border-radius: 25px;
         }
