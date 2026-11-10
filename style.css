@@ -10,6 +10,10 @@
             font-family: myFont3;
             src: url(fonts/RubikWetPaint/RubikWetPaint-Regular.ttf);
         }
+        @font-face {
+            font-family: myFont4;
+            src: url(fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+        }
         header {
             background-color: #1B1A16;
             border-radius: 25px;
@@ -19,6 +23,7 @@
             box-sizing: border-box;
             overflow-wrap: break-word;
             color: #E8E1D3;
+            font-size: auto;
         }
         div {
             overflow-wrap: anywhere;
@@ -47,7 +52,7 @@
             border-color: #80663B;
             font-family: myFont1;
         }
-        #container1 > div, #container2 > div, #container3 > div {
+        #container1 > div, #container2 > div, #container3 > div, #range-container > div {
             min-width: 0;
         }
         #container1 {
@@ -60,6 +65,12 @@
         #container2 {
             display: flex;
             gap: 10px;
+        }
+        #range-container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            text-align: center;
         }
         #div1 {
             background-color: #1B1A16;
@@ -80,6 +91,9 @@
             font-size: auto;
             margin: auto;
             font-family: myFont1;
+        }
+        .m {
+            font-family: myFont4;
         }
         #p1 {
             font-size: auto;
@@ -112,17 +126,47 @@
         #p6 {
             font-size: auto;
             margin: auto;
-            font-family: myFont3;
+            font-family: myFont4;
         }
         #p7 {
             font-size: auto;
             margin: auto;
-            font-family: myFont3;
+            font-family: myFont4;
         }
         #p8 {
             font-size: auto;
             margin: auto;
-            font-family: myFont3;
+            font-family: myFont4;
+        }
+        #skill_id {
+            font-family: myFont1;
+        }
+        #Port_id {
+            font-size: auto;
+            margin: auto;
+            text-align: center;
+            font-family: myFont1;
+        }
+        #Komp_id {
+            font-size: auto;
+            margin: auto;
+            text-align: center;
+            font-family: myFont1;
+        }
+        #eng_id {
+            font-family: myFont1;
+        }
+        #ger_id {
+            font-family: myFont1;
+        }
+        #exp_id {
+            font-family: myFont1;
+        }
+        #edu_id {
+            font-family: myFont1;
+        }
+        #cert_id {
+            font-family: myFont1;
         }
         #div2 {
             background-color: #1B1A16;
@@ -168,7 +212,7 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
             gap: 10px;
-            height: 300px;
+            height: auto;
         }
         .mdiv {
             border-radius: 25px;
