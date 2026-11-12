@@ -52,7 +52,7 @@
             border-color: #80663B;
             font-family: myFont1;
         }
-        #container1 > div, #container2 > div, #container3 > div, #range-container > div {
+        #container1 > div, #container2 > div, #container3 > div, #range-container > div, #fdiv > div {
             min-width: 0;
         }
         #container1 {
@@ -246,5 +246,17 @@
             background-color: #1B1A16;
             padding: 10px;
             border-radius: 25px;
+            justify-content: center;
+            display: flex;
+            text-align: center;
+            gap: 10px;
+            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
         }
-            
+        #koperta {
+            height: 100px;
+            width: 100px;
+        }
+        #git {
+            height: 100px;
+            width: 100px;
+        }
