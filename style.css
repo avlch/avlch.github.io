@@ -1,3 +1,6 @@
+        html {
+            scroll-behavior: smooth;
+        }
         @font-face {
             font-family: myFont1;
             src: url(fonts/RubikGlitch/RubikGlitch-Regular.ttf);
@@ -199,12 +202,14 @@
             height: auto;
             padding: 10px;
             border-radius: 25px;
+            background-image: linear-gradient(to right, #1B1A16, #80663B);
         }
         #div6 {
             background-color: #1B1A16;
             width: 60%;
             padding: 10px;
             border-radius: 25px;
+            background-image: linear-gradient(to left, #1B1A16, #80663B);
         }
         #container3 {
             display: grid;
@@ -221,23 +226,29 @@
         #mdiv1 {
             background-color: #1B1A16;
             grid-row: span 2;
+            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
         }
         #mdiv2 {
             background-color: #1B1A16;
             grid-column: span 2;
+            background-image: linear-gradient(to bottom left, #1B1A16, #80663B);
         }
         #mdiv3 {
             background-color: #1B1A16;
+            background-image: linear-gradient(to bottom left, #1B1A16, #80663B);
         }
         #mdiv4 {
             background-color: #1B1A16;
+            background-image: linear-gradient(to left, #1B1A16, #80663B);
         }
         #mdiv5 {
             background-color: #1B1A16;
             grid-column: span 2;
+            background-image: linear-gradient(to top right, #1B1A16, #80663B);
         }
         #mdiv6 {
             background-color: #1B1A16;
+            background-image: linear-gradient(to top left, #1B1A16, #80663B);
         }
         h2 {
             text-align: center;
