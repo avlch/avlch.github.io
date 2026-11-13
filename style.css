@@ -288,5 +288,5 @@
             align-items: center;
         }
         #range1, #range2 {
-            width: auto;
+            width: 100px;
         }
