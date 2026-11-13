@@ -30,6 +30,7 @@
         }
         div {
             overflow-wrap: anywhere;
+            padding: 5px;
         }
         body {
             margin-left: 5%;
@@ -60,7 +61,7 @@
             border-color: #80663B;
             font-family: myFont1;
         }
-        #container1 > div, #container2 > div, #container3 > div, #range-container > div, #fdiv > div {
+        #container1 > div, #container2 > div, #container3 > div, #range-container > #div_range1, #range-container > #div_range2, #fdiv > div {
             min-width: 0;
         }
         #container1 {
@@ -82,7 +83,7 @@
         }
         #div1 {
             background-color: #1B1A16;
-            height: 300px;
+            height: auto;
             display: flex;
             padding: 10px;
             border-radius: 25px;
@@ -275,4 +276,17 @@
         #git {
             height: 100px;
             width: 100px;
+        }
+        #div_range1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #div_range2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #range1, #range2 {
+            width: auto;
         }
