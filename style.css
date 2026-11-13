@@ -36,7 +36,12 @@
             margin-right: 5%;
             margin-bottom: 2%;
             background-color: #80663B;
-            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
+            background-image: url(images/Focus\ Chad\ GIF.gif);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: 100% 100%;
         }
         @media screen and (min-width: 1100px) {
             body {
@@ -226,23 +231,29 @@
         #mdiv1 {
             background-color: #1B1A16;
             grid-row: span 2;
+            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
         }
         #mdiv2 {
             background-color: #1B1A16;
             grid-column: span 2;
+            background-image: linear-gradient(to bottom left, #1B1A16, #80663B);
         }
         #mdiv3 {
             background-color: #1B1A16;
+            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
         }
         #mdiv4 {
             background-color: #1B1A16;
+            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
         }
         #mdiv5 {
             background-color: #1B1A16;
             grid-column: span 2;
+            background-image: linear-gradient(to bottom left, #1B1A16, #80663B);
         }
         #mdiv6 {
             background-color: #1B1A16;
+            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
         }
         h2 {
             text-align: center;
@@ -255,6 +266,7 @@
             display: flex;
             text-align: center;
             gap: 10px;
+            background-image: linear-gradient(to bottom right, #1B1A16, #80663B);
         }
         #koperta {
             height: 100px;
