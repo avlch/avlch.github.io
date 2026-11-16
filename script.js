@@ -1,0 +1,1 @@
+alert("Witaj na mojej stronie!") // Komunikat w oknie
