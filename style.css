@@ -17,6 +17,12 @@
             font-family: myFont4;
             src: url(fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
         }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
         header {
             background-color: #1B1A16;
             border-radius: 25px;
